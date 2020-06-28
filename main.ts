@@ -3,4 +3,6 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showArrow(ArrowNames.North)
+    basic.pause(1000)
+    basic.clearScreen()
 })
